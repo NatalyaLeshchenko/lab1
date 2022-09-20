@@ -7,16 +7,13 @@ public class lab1 {
         for (int k=0; k<9; k=k+1) {
             a[k]=b;
             b=b-2;
-
             System.out.print(a[k]+ "   ");
         }
-
         System.out.println(" ");
         System.out.println("Массив x:");
         double x[]=new double[18];
         for (int k=0;k<18; k=k+1) {
            x[k]=-13 + random()*20;
-
             System.out.print(x[k]+"   ");
         }
         System.out.println("  ");
@@ -35,7 +32,5 @@ public class lab1 {
             }
             System.out.println("   ");
         }
-
     }
-
 }
